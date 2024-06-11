@@ -1,0 +1,89 @@
+body{
+    background-color: #b4d7e2;
+    margin: 30px;
+}
+.taskmanager{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.tasks{
+   background-color:#526D82;
+    
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;  
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.task{
+    background-color:#99c4e6;
+    display: flex;
+    
+    border-radius: 6px;
+    padding: 5px;
+    align-items: center;
+    gap: 10px;
+
+}
+.input{
+    width: 345px;
+    height: 23px;
+    border-radius: 6px;
+    border: none;
+
+}
+button{
+    
+    border-radius: 6px;
+    border: none;
+    padding: 8px 12px;
+    font-size: 15px;
+    color: antiquewhite;
+    cursor: pointer;
+}
+.enter{
+   
+   
+    background-color: rgba(29, 21, 58, 0.637);
+}
+.save{
+    background-color: #2ca362;
+}
+input{
+    border: 1px solid rgb(52, 52, 158);
+    border-radius: 6px;
+    padding: 8px 12px;
+    
+}
+.add-task-container{
+    width: 440px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 25PX;
+    gap: 10PX;
+}
+.add-task-container input{
+    flex-grow: 1;
+}
+
+.edit{
+    background-color:rgba(29, 21, 58, 0.637);
+}
+.delete{
+    background-color: #c75353;
+}
+.content{
+    flex-grow: 1;
+    
+}
+ .task input .edit-input{
+    flex-grow: 2;
+}
+.task.completed{
+    opacity: 0.5;
+}
